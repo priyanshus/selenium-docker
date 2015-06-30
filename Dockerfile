@@ -37,7 +37,7 @@ RUN apt-get update -qqy \
 RUN apt-get update
 RUN apt-get install -y Xvfb
 
-# Make directory where fronter selenium repo will be cloned
+# Make directory where selenium repo will be cloned
 RUN mkdir selenium-workspace
 RUN cd selenium-workspace
 
